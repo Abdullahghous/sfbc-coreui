@@ -1,2 +1,31 @@
 // Here you can add other styles
 
+.sidebar-brand {
+    display: flex;
+    flex: 0 0 var(--cui-sidebar-brand-height);
+    align-items: center;
+    justify-content: center;
+    color: var(--cui-sidebar-brand-color);
+    background: var(--cui-sidebar-brand-bg);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2) !important;
+}
+
+.footer {
+    --cui-footer-min-height: 3rem;
+    --cui-footer-padding-x: 1rem;
+    --cui-footer-padding-y: 0.5rem;
+    --cui-footer-color: rgba(44, 56, 74, 0.95);
+    --cui-footer-bg: #ebedef;
+    --cui-footer-border-color: #d8dbe0;
+    --cui-footer-border: 1px solid var(--cui-footer-border-color);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    min-height: var(--cui-footer-min-height);
+    padding: var(--cui-footer-padding-y) var(--cui-footer-padding-x);
+    color: var(--cui-footer-color);
+    background: var(--cui-footer-bg);
+    border-top: var(--cui-footer-border);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2) !important;
+}

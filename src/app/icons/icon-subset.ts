@@ -88,9 +88,15 @@ import {
   cilUserFemale,
   cilUserFollow,
   cilUserUnfollow,
+  cilFolder,
+  cilFolderOpen,
+  cilBellExclamation
 } from '@coreui/icons';
 
 export const iconSubset = {
+  cilBellExclamation,
+  cilFolderOpen,
+  cilFolder,
   cibCcAmex,
   cibCcApplePay,
   cibCcMastercard,
