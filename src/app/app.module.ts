@@ -46,6 +46,8 @@ import {
 
 import { IconModule, IconSetService } from '@coreui/icons-angular';
 
+import { HttpService } from './services';
+
 const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
   suppressScrollX: true,
 };
@@ -87,6 +89,7 @@ const APP_CONTAINERS = [
     CardModule,
   ],
   providers: [
+    HttpService,
     {
       provide: LocationStrategy,
       useClass: HashLocationStrategy,
